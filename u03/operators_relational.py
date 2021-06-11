@@ -2,6 +2,7 @@
 #   Example from courses made by Prof. Dr. Daniel F. Abawi and Michael B. Schmidt
 #   htw saar, Saarbrücken, Germany
 
+print('Here are some relational operators:')
 # less than
 print('3 < 4 is', 3 < 4)
 
@@ -19,3 +20,5 @@ print('3 == 4 is', 3 == 4)
 
 # not equal
 print('3 != 4 is', 3 != 4)
+
+print('\nNow try yourself with relational operators, i.e. in the Python console.')
