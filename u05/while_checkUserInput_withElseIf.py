@@ -12,11 +12,11 @@ while userSelectionCorrect == False:
     userSelection = input()
 
     if userSelection == 'add':
-        print("add selected")       # you may call a function that performs the action
-        userSelectionCorrect = True
+        print("add selected")           # you may call a function that performs the action
+        userSelectionCorrect = True     # important, to stop the loop
     elif userSelection == 'edit':
-        print("edit selected")      # you may call a function that performs the action
-        userSelectionCorrect = True
+        print("edit selected")          # you may call a function that performs the action
+        userSelectionCorrect = True     # important, to stop the loop
     else:
         # so the input was not valid
         print("***Your selection is invalid!***")

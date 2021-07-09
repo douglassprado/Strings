@@ -10,7 +10,7 @@ while hour <= 12:
     minutes = 7
 
     while minutes <= 59:
-        print(f'\t\t{hour:02}:{minutes:02} minutes', end='')    # uses tabs and does not linebreak at the end
+        print(f'\t\t{hour:02}:{minutes:02}', end='')    # uses tabs and does not linebreak at the end
         minutes = minutes + 15
 
     print('')       # to have a line break after the inner loop

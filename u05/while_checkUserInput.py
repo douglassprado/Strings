@@ -11,8 +11,8 @@ while userSelectionCorrect == False:
     print('\nPlease enter your selection:')
     userSelection = input()
 
-    #important: command, that affects the boolean expression
-    #assume, that the input is NOT correct
+    # important: command, that affects the boolean expression
+    # assume, that the input is NOT correct
     userSelectionCorrect = False
 
     if userSelection == 'add':
